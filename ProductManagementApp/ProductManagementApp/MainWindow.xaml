@@ -1,0 +1,15 @@
+﻿<Window x:Class="ProductManagementApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProductManagementApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <ListBox Name="productsListBox"  Margin="10,14,555,14"/>
+        <Button Name="addButton" Content="Product toevoegen" FontSize="25" HorizontalAlignment="Left" Margin="364,111,0,0" VerticalAlignment="Top" Height="70" Width="311" Click="addButton_Click"/>
+        <Button x:Name="deleteButton" Content="Product verwijderen" FontSize="25" HorizontalAlignment="Left" Margin="364,229,0,0" VerticalAlignment="Top" Height="70" Width="311" Click="deleteButton_Click"/>
+
+    </Grid>
+</Window>
