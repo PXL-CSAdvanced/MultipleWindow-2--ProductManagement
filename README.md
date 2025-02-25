@@ -15,6 +15,8 @@ Voeg een knop "Product verwijderen" toe.
 ##### Modal Venster voor Toevoegen:
 Bij klikken op "Product toevoegen" opent een modal venster waarin de gebruiker gegevens kan invoeren voor een nieuw product.
 Na invoer, wordt een nieuw Product-object aangemaakt en aan de lijst in het hoofdvenster toegevoegd.
+##### Product verwijderen
+Wanneer je een item in de ListBox selecteerd en op de knop 'Product verwijderen' klikt, wordt deze uit de lijst verwijderd.
 ##### Validatie:
 Implementeer basisvalidaties, zoals dat de prijs positief moet zijn en de voorraad niet negatief.
 
